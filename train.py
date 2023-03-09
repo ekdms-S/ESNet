@@ -13,7 +13,6 @@ def parse_args():
     parser = argparse.ArgumentParser(description='train ESNet')
 
     # training
-    parser.add_argument('--model_name', type=str)
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--init_lr', type=float, default=0.0015)
     parser.add_argument('--early_stp_patience', type=int, default=35)
