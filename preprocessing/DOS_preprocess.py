@@ -31,7 +31,7 @@ def parse_args():
     parser.add_argument('--val_init_target_filename', type=str, default='2eORR_init_target.pkl')
 
     # application data: 2eORR IS2RE
-    parser.add_argument('--is_appl_val', type=bool, default=True)
+    parser.add_argument('--is_appl_val', type=bool, default=False)
     parser.add_argument('--appl_filename', type=str, default='2eORR_appl_init_data.pkl')
     parser.add_argument('--appl_del_idx_filename', type=str, default='2eORR_appl_init_deleted_idx.pkl')
     parser.add_argument('--appl_input_filename', type=str, default='2eORR_appl_init_dos.pkl')
