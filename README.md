@@ -19,6 +19,16 @@ To prepare the input of the model, you will need to [download all data](#data) t
 ```
 python preprocessing/DOS_preprocess.py
 ```
+### Train ESNet
+Hyperparameters, such as `--batch_size`, `--init_lr`, `--lr_sch_factor`, `--lr_sch_patience`, `--loss`, `--epochs` can be set. Their default values are set as 64, 0.0015, 0.5, 15, 'logcosh', and 300, respectively, now.
+```
+python train.py
+```
+### Evaluate saved ESNet
+Before evaluate the fully-trained model, preprocessed data for evaluation should be downloaded first. These are 2e-ORR dataset for both IS2RE and RS2RE tasks
+*2eORR_init_dos.pkl, 2eORR_init_target.pkl
+*2eORR_relax_dos.pkl, 2eORR_relax_target.pkl
+
 
 ## Data
 All data used during the training and validation can be downloaded from the link below.
