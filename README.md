@@ -25,10 +25,15 @@ Hyperparameters, such as `--batch_size`, `--init_lr`, `--lr_sch_factor`, `--lr_s
 python train.py
 ```
 ### Evaluate saved ESNet
-Before evaluate the fully-trained model, preprocessed data for evaluation should be downloaded first. These are 2e-ORR dataset for both IS2RE and RS2RE tasks
-*2eORR_init_dos.pkl, 2eORR_init_target.pkl
-*2eORR_relax_dos.pkl, 2eORR_relax_target.pkl
+Before evaluate the fully-trained model, [preprocessed data for evaluation](#data) should be downloaded first. These are 2e-ORR dataset for both IS2RE and RS2RE tasks:
+* 2eORR_init_dos.pkl, 2eORR_init_target.pkl
+* 2eORR_relax_dos.pkl, 2eORR_relax_target.pkl
 
+Then, you can evaluate the provided ESNet, specifying the evaluation task through `--evaluation_version`.
+```
+python evaluate.py --evaluate_version='IS2RE'
+```
+The predicted formation energy will be in the units of `eV/atoms`
 
 ## Data
 All data used during the training and validation can be downloaded from the link below.
