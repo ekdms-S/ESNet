@@ -5,6 +5,7 @@ It uses **density of states (DOS) of unrelaxed initial** structures as input rep
 achieving successful performance in IS2RE task. 
 
 This model is described in the paper: [Chemically Inspired Convolutional Neural Network using Electronic Structure Representation](https://chemrxiv.org/engage/chemrxiv/article-details/63d39ca11a1ead1841b9a1a7)
+
 ![model_architecture](https://user-images.githubusercontent.com/80326874/224038629-99d5dd05-66b7-4873-9953-67c4e2a225e5.png)
 
 ## Installation
