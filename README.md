@@ -19,7 +19,7 @@ To prepare the input of the model, you will need to [download all data](#data) t
 ```
 python preprocessing/DOS_preprocess.py
 ```
-You can extract DOS from MP using preprocessing/DOS_extraction.py, but it will take a lot of time. So we recommend downloading the data we prepared. 
+You can extract DOS from MaterialsProject using preprocessing/DOS_extraction.py, but it will take a lot of time. So we recommend downloading the data we prepared. 
 
 ### Train ESNet
 Hyperparameters, such as `--batch_size`, `--init_lr`, `--lr_sch_factor`, `--lr_sch_patience`, `--loss`, `--epochs` can be set. Their default values are set as 64, 0.0015, 0.5, 15, 'logcosh', and 300, respectively, now.
