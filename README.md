@@ -42,6 +42,6 @@ All data used during the training and validation can be downloaded from the link
 
 <https://ewhainnet-my.sharepoint.com/:f:/g/personal/222hgg15_ewhain_net/Eumo24XnIoJHvQSaaLncjYEB1xsiLuRYFlMl_1-FugfOng?e=CQf8cm>
 
-Here, we also provide initial and relaxed crystal structures of the 2e-ORR dataset, used as validation sets in this work. These can be utilized to evaluate other baselines that do not use DOS as input, such as [CGCNN](https://github.com/kaist-amsg/CGCNN-HD), [MEGNet](https://github.com/materialsvirtuallab/megnet), [Wren, and Roost](https://github.com/CompRhys/aviary).
+Here, we also provide initial and relaxed crystal structures of the 2e-ORR dataset, used as validation sets in this work. These can be utilized to evaluate other baselines that do not use DOS as input, such as [CGCNN-HD](https://github.com/kaist-amsg/CGCNN-HD), [MEGNet](https://github.com/materialsvirtuallab/megnet), [Wren, and Roost](https://github.com/CompRhys/aviary).
 * all/2eORR_init_data.7z
 * all/2eORR_relax_data.7z
